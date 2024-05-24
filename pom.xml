@@ -17,7 +17,7 @@
 		<java.version>17</java.version>
 	</properties>
 
-	<!-- Demo on Github Webhooks demo-->
+	<!-- Demo on Github Webhooks sample-->
 	<dependencies>
 		<dependency>
 			<groupId>org.springframework.boot</groupId>
