@@ -18,4 +18,9 @@ public class Controller
 		return "Sample integration test successful";
 	}
 
+	@RequestMapping("/{name}")
+	public String names()
+	{
+		return "Hello "+name;
+	}
 }
