@@ -1,5 +1,6 @@
 package com.Springboot_Github_Jenkins_Docker.Springboot_Github_Jenkins_Docker;
 
+import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
@@ -19,7 +20,7 @@ public class Controller
 	}
 
 	@RequestMapping("/{name}")
-	public String names()
+	public String names(@PathVariable String name)
 	{
 		return "Hello "+name;
 	}
