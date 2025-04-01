@@ -38,7 +38,7 @@
 	</dependencies>
 
 	<build>
-	<finalName>jenkins-integration</finalName>
+	<finalName>jenkins/finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
